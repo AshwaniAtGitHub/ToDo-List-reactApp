@@ -26,7 +26,7 @@ const handleDeleteTodo = (index)=>{
     return(<>
        
             <div className='main'>
-                       <h1>Todo List App in React JS</h1>
+                       <h1>Todo List App in React</h1>
              <input type='text' value={inputValue} onChange={handleInputChange}  />
              <button onClick={handleAddTodo}>Add Todo</button>
 
